@@ -1,0 +1,10 @@
+{
+  "name": "Funix Extension",
+  "description": "L'extention Chrome de Funix !",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "background": {
+    "service_worker": "backend.js"
+  }
+}
