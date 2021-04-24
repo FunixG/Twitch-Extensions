@@ -3,7 +3,13 @@
   "description": "L'extention Chrome de Funix !",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": [
+    "storage"
+  ],
 
+  "action": {
+    "default_popup": "popup.html"
+  },
   "background": {
     "service_worker": "backend.js"
   }
