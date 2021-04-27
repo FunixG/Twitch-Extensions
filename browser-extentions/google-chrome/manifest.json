@@ -6,10 +6,10 @@
   "permissions": [
     "storage"
   ],
-
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "front/popup/popup.html"
   },
+  "options_page": "front/options/options.html",
   "background": {
     "service_worker": "backend.js"
   }
